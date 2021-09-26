@@ -1,0 +1,13 @@
+.homeContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.homeContainer > div{
+    margin: 0 auto;
+}
+.borderBottom{
+    border-bottom: solid 1px rgba(0,0,0,.1);
+    width: 90%;
+    margin: 0 auto;
+}

@@ -1,0 +1,222 @@
+
+.singlePost{
+    width: 45%;
+    border-radius: 9px;
+    box-shadow: 2px 5px 9px 2px rgb(0 0 0 / 10%);
+}
+.postHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.postHeading p{
+    width: 90%;
+}
+.postHeadingProfile{
+    width: 10%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 2%;
+}
+.postCount{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.postCountButton{
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A86EE;
+    background-image: linear-gradient(#24A1F9,#016AE3);
+}
+.postCountLike{
+    color: #fff;
+    width: 11px !important;
+}
+.postResponse{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.postResponse div{
+    width: 100%;
+}
+.postResponse button{
+    border-radius: 3px;
+    padding: 3% 0;
+    border: none;
+    background: none;
+    width: 100%;
+    color: #6c757d;
+    font-weight: 700;
+}
+.postResponse button:hover{
+    background-color: #96989923;
+}
+.postResponse .faIcon{
+    font-size: 1.2rem;
+}
+.commentFilter{
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.commentViewMore{
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.comments{
+    display: flex;
+    width: 100%;
+}
+.commentsLeft{
+    display: flex;
+    width: 10%;
+    height: 10%;
+}
+.commentsLeftImage{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.commentsRight{
+    width: 90%;
+    margin: 0 2% 1% 1%;
+}
+.commentsRightData{
+    width: 100%;
+    margin-right: 10%;
+    padding: 3%;
+    background-color: #96989923;
+    border-radius: 14px;
+}
+.commentsRightName{
+    width: 100%;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.commentsRightResponse{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1%;
+}
+.commentsRightResponse button{
+    background: none;
+    border: 0;
+    font-weight: 600;
+    font-size: .9rem;
+}
+.commentsRightReply{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.commentsReplyLeft{
+    width: 8%;
+    height: 8%;
+    display: flex;
+}
+.commentsReplyLeftImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.commentsReplyRight{
+    width: 100%;
+    margin: 0 1%;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color:rgb(230, 230, 230);
+
+
+}
+
+.commentsReplyRight .commentReplyForm input{
+    background-color:rgb(230, 230, 230);
+    padding: 2% 3%;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.commentReplyEmoji button{
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+    color: #969899;
+    border-radius: 50%;
+}
+.commentReplyEmoji button:hover{
+    background-color: #bdc3c9;
+}
+
+
+.addComment{
+    display: flex;
+    width: 100%;
+}
+.addCommentLeft{
+    display: flex;
+    width: 10%;
+    height: 10%;
+}
+.addCommentLeftImage{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.addCommentRight{
+    width: 100%;
+    margin: 0 1%;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color:rgb(230, 230, 230);
+
+
+}
+
+.addCommentRight .addCommentForm input{
+    background-color:rgb(230, 230, 230);
+    padding: 2% 3%;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.addCommentEmoji button{
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+    color: #969899;
+    border-radius: 50%;
+}
+.addCommentEmoji button:hover{
+    background-color: #bdc3c9;
+}
+
+

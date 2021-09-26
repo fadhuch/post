@@ -1,0 +1,73 @@
+.borderBottom{
+    border-bottom: solid 1px rgba(0,0,0,.1);
+    width: 90%;
+    margin: 0 auto;
+}
+.addPost{
+    width: 45%;
+    border-radius: 9px;
+    box-shadow: 2px 5px 9px 2px rgb(0 0 0 / 10%);
+}
+.addPostHeading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+}
+.addPostHeadingProfile{
+    width: 10%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 2%;
+}
+.addPostButton{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+/* .addPostForm input{
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+    padding-left: 3%;
+    background-color: #96989918;
+} */
+.addPostItems{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.addPostItems div{
+    width: 100%;
+}
+.addPostItems button{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 3% 0;
+    border: none;
+    background: none;
+    width: 100%;
+    color: #6c757d;
+    font-weight: 700;
+}
+.addPostItems button:hover{
+    background-color: #96989923;
+}
+.addPostItems .faIconMedia{
+    font-size: 1.5rem;
+    color: #5BB45C;
+}
+.addPostItems .faIconTag{
+    font-size: 1.5rem;
+    color: #1877F2;
+}
+.addPostItems .faIconFeel{
+    font-size: 1.5rem;
+    color: #F7B927;
+
+}
