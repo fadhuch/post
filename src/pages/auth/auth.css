@@ -6,7 +6,6 @@
 .signup{
     margin: 0 auto;
     width: 70%;
-    background-color: #fff;
 }
 
 .signupForm{
@@ -26,8 +25,162 @@
 .signup-submit-button{
     outline: none;
     border: none;
-    background-color: rgb(97, 247, 59);
     color: #fff;
     border-radius: 3px;
     padding: 1% 2%;
+}
+.login {
+	display: flex;
+    background-color: #fff;
+}
+
+.login .left {
+	display: none;
+	width: 50%;
+}
+@media screen and (min-width: 850px) {
+	.login .left {
+		display: block;
+		width: 50%;
+	}
+	.login .right {
+		width: 50% !important;
+		margin: 8% 0 !important;
+	}
+	.login .right {
+		padding-right: 9%;
+		padding-left: 5%;
+	}
+}
+.login .right {
+	margin: 30% 0;
+	width: 100%;
+	/* padding-right: 9%;
+	padding-left: 5%; */
+}
+.login .head {
+	margin-bottom: 7%;
+}
+.login .orDivider {
+	margin: 4% 0;
+}
+.head h3,
+.head p,
+.head a {
+	font-weight: 700;
+}
+.head h3 {
+	font-size: 42px;
+}
+.head p {
+	font-size: 14px;
+}
+.head a {
+	text-decoration: none;
+	color: #ff0000;
+	font-size: 14px;
+}
+.orDivider {
+	display: flex;
+	align-items: center;
+}
+.orDivider div {
+	width: 47%;
+}
+.orDivider p {
+	padding: 0 !important;
+	margin: 0 5px !important;
+	font-size: 16px;
+}
+.form input {
+	border: none;
+	width: 100%;
+	border: none;
+	padding-left: 2%;
+	outline: none;
+
+	font-size: 0.7rem;
+}
+
+.form a {
+	text-decoration: none;
+	color: #ff0000;
+}
+.formSubmit {
+	margin-top: 5%;
+	width: 100%;
+	border-radius: 8px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: #ff0000;
+	color: #fff;
+	padding: 2%;
+	font-weight: 700;
+	font-size: 20px;
+	border: none;
+	outline: none;
+
+	font-size: 1rem;
+}
+.agree {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+.agree input {
+	width: 7%;
+}
+.agree p {
+	font-size: 0.7rem;
+	margin-bottom: 0;
+}
+@media screen and (min-width: 600px) {
+	.agree p {
+		font-size: 1rem;
+	}
+}
+.Lform input {
+	border: none;
+	width: 100%;
+	border: none;
+	padding-left: 2%;
+	outline: none;
+}
+.form input:focus::placeholder {
+	color: transparent;
+}
+
+.Lform input:focus::placeholder {
+	color: transparent;
+}
+
+.LformInput:focus-within {
+	border: 1px solid rgb(255, 0, 0) !important;
+}
+.Lform a {
+	text-decoration: none;
+	color: #ff0000;
+}
+
+.LformInput {
+	display: flex;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 8px;
+	padding: 2% 3%;
+	align-items: center;
+	margin-bottom: 3%;
+	font-size: 0.7rem;
+}
+@media screen and (min-width: 850px) {
+	.LformInput {
+		font-size: 1rem;
+	}
+	.formSubmit {
+		font-size: 1.5rem;
+	}
+	.form input {
+		font-size: 1rem;
+	}
+}
+.LformInput div {
+	width: 5%;
 }

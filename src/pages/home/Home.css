@@ -11,3 +11,10 @@
     width: 90%;
     margin: 0 auto;
 }
+.logoutButton{
+    width: 20%;
+    margin: 1% auto;
+    border: none;
+    outline:none;
+    padding: 1% 0;
+}
