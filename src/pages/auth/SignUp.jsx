@@ -2,11 +2,11 @@ import React, {useState} from 'react'
 import './auth.css'
 
 function SignUp(){
-    const [signup, setSignUp] = useState([{
+    const [signup, setSignUp] = useState({
         username:"",
         email:"",
         password:""
-    }])
+    })
     function handleChange(e){
         setSignUp({...signup,
             [e.target.name]:e.target.value
@@ -15,10 +15,9 @@ function SignUp(){
     function handleSubmit(e){
         e.preventdefault()
         var data = new FormData();
-        data.append('username', formData.heading );
-        data.append('description', formData.description);
-        data.append('photo', formData.photo, formData.photo.name);
-        postData(data)
+        data.append('username', signup.username );
+        data.append('email', signup.email);
+        data.append('password', signup.password);
         setSignUp(signup)
     }
     

@@ -5,6 +5,10 @@ import axios from 'axios'
 export const MyContext = React.createContext()
 
 function MyProvider({children}) {
+    const [user, setUser] = useState({
+		email: "",
+		password: "",
+	});
 
     const [modalOpen, setModalOpen] = useState(false)
     const [state, setState] = useState([])
@@ -32,8 +36,6 @@ function MyProvider({children}) {
             method: 'get',
             url: 'http://127.0.0.1:8000/myapi/',
             headers: { 
-                'Authorization': 'Token c075a0571305aa094471a72a233dcca0eb5ed8db', 
-                'Cookie': 'csrftoken=ScJuFk15kKvPbzSeMCjvsFlMwyfPoiTARMSdWAnyVR6Em2fqJiYWWcU1qq0KIUi2'
               }
         };
       axios(config)
@@ -46,8 +48,6 @@ function MyProvider({children}) {
             method: 'get',
             url: 'http://127.0.0.1:8000/myapi/comments/',
             headers: { 
-                'Authorization': 'Token c075a0571305aa094471a72a233dcca0eb5ed8db', 
-                'Cookie': 'csrftoken=ScJuFk15kKvPbzSeMCjvsFlMwyfPoiTARMSdWAnyVR6Em2fqJiYWWcU1qq0KIUi2'
               }
         };
       axios(config)
@@ -84,6 +84,8 @@ function MyProvider({children}) {
             comments,
             setComments,
             replies,
+            setUser, 
+            user,
         }}>
             {children}
         </MyContext.Provider>
